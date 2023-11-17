@@ -30,6 +30,6 @@ if(UNIX AND ${LIBOLA_FOUND} AND ${LIBOLASERVER_FOUND})
     add_subdirectory(ola)
 endif()
 
-#    add_subdirectory(uart)
-#    add_subdirectory(gpio)
+    add_subdirectory(uart)
+    add_subdirectory(gpio)
 endif()
